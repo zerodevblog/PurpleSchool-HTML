@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+header {
+  padding: 0 0 69px 0;
+}
+.header__user--link {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 0 0 77px 0;
+}
+.header__menu--list {
+  list-style: none;
+}
+.header__menu--item:first-child {
+  padding: 0 0 52px 0;
+}
+.header__menu--item:nth-child(2) {
+  padding: 0 0 32px 0;
+}
+.header__menu--item:last-child {
+  padding: 0 0 346px 0;
+}
+.header__menu--link {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.header__input--item {
+  background-color: transparent;
+}
+.header__input--item::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+.blog {
+  text-align: center;
+}
+.blog__sub {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  padding: 0 0 14px 0;
+}
+.blog__title {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 158.333% */
+  padding: 0 0 30px 0;
+}
+.blog__user {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding: 0 0 30px 0;
+}
+.blog__img {
+  padding: 0 0 70px 0;
+}
+
+.blog__user--prof {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.blog__text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  padding: 0 0 40px 0;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding: 103px 70px;
+}
